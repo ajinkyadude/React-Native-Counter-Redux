@@ -8,7 +8,9 @@ function App(): JSX.Element {
   return(
   <View style={{flex:1}}>
     <Provider store={store}>
+    
     <Counter />
+
     </Provider>
   </View>
   );
